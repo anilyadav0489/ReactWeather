@@ -3,10 +3,10 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-      <h2>About component</h2>
-      <p>This is About Section of React Weather application</p>
+      <h3>About</h3>
+      <p>Welcome to the about page.</p>
     </div>
-  );
-}
+  )
+};
 
 module.exports = About;
